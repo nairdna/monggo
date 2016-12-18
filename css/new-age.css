@@ -289,6 +289,13 @@ section.features .feature-item i {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.mute {
+  font-size: 80px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+}
+
 @media (min-width: 992px) {
   section.features .device-container,
   section.features .feature-item {
