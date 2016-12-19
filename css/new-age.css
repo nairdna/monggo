@@ -291,9 +291,9 @@ section.features .feature-item i {
 }
 
 .mute {
-  font-size: 80px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-   filter: grayscale(100%);
+  font-size: 80px !important;
+  -webkit-filter: grayscale(100%) !important; /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%) !important;
 }
 
 @media (min-width: 992px) {
