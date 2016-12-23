@@ -7,6 +7,9 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <style>
+            body{
+                position: relative;
+            }
             p{
                 text-align: justify;
             }
@@ -28,55 +31,14 @@
                     display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
                 }
             }
+            .affix{
+                top:20px;
+            }
         </style>
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <a class="navbar-left" href="index.html"><img src="img/logo.png"></a>
-                <form class="navbar-form navbar-left">                    
-                    <div class="form-group">
-                         <input type="text" size="50" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-success form-control">
-                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                    </button>
-                </form>                    
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>                    
-                    </li>
-                </ul> 
-                <ul class="nav navbar-nav navbar-right">
-                   
-                    <li><a href="#"><img src="img/cart.png" style="filter:invert(100%)"></a></li>
-                    <li><a href="#"><img src="img/group.png" style="filter:invert(100%)"></a></li>
-                    <li><a href="#"><img src="img/comments.png" style="filter:invert(100%)"></a></li>
-                    <li><a href="#"><img src="img/bell.png" style="filter:invert(100%)"></a></li>
-                    <li><a href="#"><img src="img/user.png" style="filter:invert(100%)">&nbsp; &nbsp; Andrian</a></li>
-                </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
+        <!-- navbar -->
+        <?php include "navbar.php" ?>
 
         <div class="container">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -109,30 +71,14 @@
                 </div>
             </div>            
             <div class="row">
-                <div class="col-lg-2 col-md-2 col-sm-3">
-                    <div class="list-group table-of-contents">                        
-                             <form>
-                                <button type="submit" class="btn btn-success form-control">
-                                    Create Event
-                                </button>
-                            </form>  
-                        <h4 class="list-group-item-heading">Topik</h4>
-                        <a class="list-group-item" href="#komunitas">Komunitas</a>
-                        <a class="list-group-item" href="#seni">Seni</a>
-                        <a class="list-group-item" href="#permainan">Permainan</a>
-                        <a class="list-group-item" href="#olahraga">Olahraga</a>
-                        <a class="list-group-item" href="#seminar">Seminar/Workshop</a>
-                        <a class="list-group-item" href="#expo">Expo/Konferensi</a>
-                        <a class="list-group-item" href="#bazaar">Bazaar</a>
-                        <a class="list-group-item" href="#sukarelawan">Sukarelawan</a>
-                        <a class="list-group-item" href="#pemerintahan">Pemerintahan</a>
-                    </div>
-            </div>
+            <!-- category -->
+            <?php include "category-list.php" ?>
+
             <div class="col-lg-10 col-md-10 col-sm-9">
                 <div class="thumbnail col-md-4">
                     <img src="img/1.jpg" alt="Placeholder">
                     <div class="caption">
-                        <a href="page.html"><h3>Festival Seni</h3></a>
+                        <a href="page.php"><h3>Festival Seni</h3></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
                         <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
                         <p align="right"></p>
@@ -141,7 +87,7 @@
                 <div class="thumbnail col-md-4">
                     <img src="img/1.jpg" alt="Placeholder">
                     <div class="caption">
-                        <a href="page.html"><h3>Festival Seni</h3></a>
+                        <a href="page.php"><h3>Festival Seni</h3></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
                         <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
                         <p align="right"></p>
@@ -150,7 +96,7 @@
                 <div class="thumbnail col-md-4">
                     <img src="img/1.jpg" alt="Placeholder">
                     <div class="caption">
-                        <a href="page.html"><h3>Festival Seni</h3></a>
+                        <a href="page.php"><h3>Festival Seni</h3></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
                         <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
                         <p align="right"></p>
@@ -159,7 +105,7 @@
                 <div class="thumbnail col-md-4">
                     <img src="img/1.jpg" alt="Placeholder">
                     <div class="caption">
-                        <a href="page.html"><h3>Festival Seni</h3></a>
+                        <a href="page.php"><h3>Festival Seni</h3></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
                         <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
                         <p align="right"></p>
@@ -168,7 +114,7 @@
                 <div class="thumbnail col-md-4">
                     <img src="img/1.jpg" alt="Placeholder">
                     <div class="caption">
-                        <a href="page.html"><h3>Festival Seni</h3></a>
+                        <a href="page.php"><h3>Festival Seni</h3></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
                         <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
                         <p align="right"></p>
@@ -177,7 +123,7 @@
                 <div class="thumbnail col-md-4">
                     <img src="img/1.jpg" alt="Placeholder">
                     <div class="caption">
-                        <a href="page.html"><h3>Festival Seni</h3></a>
+                        <a href="page.php"><h3>Festival Seni</h3></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
                         <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
                         <p align="right"></p>
@@ -186,7 +132,7 @@
                 <div class="thumbnail col-md-4">
                     <img src="img/1.jpg" alt="Placeholder">
                     <div class="caption">
-                        <a href="page.html"><h3>Festival Seni</h3></a>
+                        <a href="page.php"><h3>Festival Seni</h3></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
                         <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
                         <p align="right"></p>
@@ -195,7 +141,7 @@
                 <div class="thumbnail col-md-4">
                     <img src="img/1.jpg" alt="Placeholder">
                     <div class="caption">
-                        <a href="page.html"><h3>Festival Seni</h3></a>
+                        <a href="page.php"><h3>Festival Seni</h3></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
                         <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
                         <p align="right"></p>
@@ -204,7 +150,7 @@
                 <div class="thumbnail col-md-4">
                     <img src="img/1.jpg" alt="Placeholder">
                     <div class="caption">
-                        <a href="page.html"><h3>Festival Seni</h3></a>
+                        <a href="page.php"><h3>Festival Seni</h3></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
                         <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
                         <p align="right"></p>
@@ -235,30 +181,8 @@
             </nav>
         </div>
         </div>
-        <footer class="footer" style="background:#e95420; color:white; padding:15px;">
-            <div class="container">
-                <div class="col-md-4">
-                    <ul style="list-style-type:none">
-                        <li><img src="img/logo.png"></li>
-                        <li>About us</li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul style="list-style-type:none">
-                        <li><img src="img/logo.png"></li>
-                        <li>About us</li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul style="list-style-type:none">
-                        <li><img src="img/logo.png"></li>
-                        <li>About us</li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
+
+        <!-- footer -->
+        <?php include "footer.php" ?>
     </body>
 </html>
