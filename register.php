@@ -80,7 +80,7 @@
                     </div>
                     <div class="form-group">
                         <label for="birth">Date of Birth</label>
-                        <input type="text" size="10" class="form-control" id="birth" placeholder="DD/MM/YYYY">
+                        <input type="date" size="10" class="form-control" id="birth">
                     </div>
                     <div class="form-group">
                         <div class="col-sm-6">

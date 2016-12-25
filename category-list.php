@@ -3,9 +3,9 @@
                     <div data-spy="affix" data-offset-top="500">
                     <div class="list-group table-of-contents">                        
                              <form>
-                                <button type="submit" class="btn btn-success form-control">
+                                <a href="create.php" role="button" class="btn btn-success form-control">
                                     Create Event
-                                </button>
+                                </a>
                             </form>  
                         <h4 class="list-group-item-heading">Topik</h4>
                         <a class="list-group-item" href="#komunitas">Komunitas</a>

@@ -34,6 +34,20 @@
             .affix{
                 top:20px;
             }
+            .thumbnail{
+                position:relative;
+            }
+            .price{
+                position: absolute;
+                right: 4px;
+                top: 10px;
+                background:#e95420;
+                color:white;
+                margin:0;
+                font-size:16pt;
+                border: 1px solid white;
+                padding:5px;
+            }
         </style>
     </head>
     <body>
@@ -76,86 +90,204 @@
 
             <div class="col-lg-10 col-md-10 col-sm-9">
                 <div class="thumbnail col-md-4">
-                    <img src="img/1.jpg" alt="Placeholder">
+                    <a href="page.php">
+                        <img src="img/1.jpg" alt="Placeholder">
+                    </a>
+                    <h3 class="price">
+                        150K
+                    </h3>
                     <div class="caption">
-                        <a href="page.php"><h3>Festival Seni</h3></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
-                        <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
-                        <p align="right"></p>
+                        Monday, June 28, 2017
+                        <div class="col-md-8" style="padding:0">
+                            From Zero to hero<br>
+                            Jakarta Convention Center
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
+                        </div>
                     </div>
                 </div>
+                
                 <div class="thumbnail col-md-4">
-                    <img src="img/1.jpg" alt="Placeholder">
+                    <a href="page.php">
+                        <img src="img/1.jpg" alt="Placeholder">
+                    </a>
+                    <h3 class="price">
+                        150K
+                    </h3>
                     <div class="caption">
-                        <a href="page.php"><h3>Festival Seni</h3></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
-                        <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
-                        <p align="right"></p>
+                        Monday, June 28, 2017
+                        <div class="col-md-8" style="padding:0">
+                            From Zero to hero<br>
+                            Jakarta Convention Center
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
+                        </div>
                     </div>
                 </div>
+
                 <div class="thumbnail col-md-4">
-                    <img src="img/1.jpg" alt="Placeholder">
+                    <a href="page.php">
+                        <img src="img/1.jpg" alt="Placeholder">
+                    </a>
+                    <h3 class="price">
+                        150K
+                    </h3>
                     <div class="caption">
-                        <a href="page.php"><h3>Festival Seni</h3></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
-                        <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
-                        <p align="right"></p>
-                    </div>
-                </div> 
-                <div class="thumbnail col-md-4">
-                    <img src="img/1.jpg" alt="Placeholder">
-                    <div class="caption">
-                        <a href="page.php"><h3>Festival Seni</h3></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
-                        <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
-                        <p align="right"></p>
-                    </div>
-                </div>
-                <div class="thumbnail col-md-4">
-                    <img src="img/1.jpg" alt="Placeholder">
-                    <div class="caption">
-                        <a href="page.php"><h3>Festival Seni</h3></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
-                        <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
-                        <p align="right"></p>
+                        Monday, June 28, 2017
+                        <div class="col-md-8" style="padding:0">
+                            From Zero to hero<br>
+                            Jakarta Convention Center
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
+                        </div>
                     </div>
                 </div>
+
                 <div class="thumbnail col-md-4">
-                    <img src="img/1.jpg" alt="Placeholder">
+                    <a href="page.php">
+                        <img src="img/1.jpg" alt="Placeholder">
+                    </a>
+                    <h3 class="price">
+                        150K
+                    </h3>
                     <div class="caption">
-                        <a href="page.php"><h3>Festival Seni</h3></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
-                        <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
-                        <p align="right"></p>
+                        Monday, June 28, 2017
+                        <div class="col-md-8" style="padding:0">
+                            From Zero to hero<br>
+                            Jakarta Convention Center
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
+                        </div>
                     </div>
                 </div>
+
                 <div class="thumbnail col-md-4">
-                    <img src="img/1.jpg" alt="Placeholder">
+                    <a href="page.php">
+                        <img src="img/1.jpg" alt="Placeholder">
+                    </a>
+                    <h3 class="price">
+                        150K
+                    </h3>
                     <div class="caption">
-                        <a href="page.php"><h3>Festival Seni</h3></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
-                        <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
-                        <p align="right"></p>
+                        Monday, June 28, 2017
+                        <div class="col-md-8" style="padding:0">
+                            From Zero to hero<br>
+                            Jakarta Convention Center
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
+                        </div>
                     </div>
                 </div>
+
                 <div class="thumbnail col-md-4">
-                    <img src="img/1.jpg" alt="Placeholder">
+                    <a href="page.php">
+                        <img src="img/1.jpg" alt="Placeholder">
+                    </a>
+                    <h3 class="price">
+                        150K
+                    </h3>
                     <div class="caption">
-                        <a href="page.php"><h3>Festival Seni</h3></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
-                        <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
-                        <p align="right"></p>
+                        Monday, June 28, 2017
+                        <div class="col-md-8" style="padding:0">
+                            From Zero to hero<br>
+                            Jakarta Convention Center
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
+                        </div>
                     </div>
                 </div>
+
                 <div class="thumbnail col-md-4">
-                    <img src="img/1.jpg" alt="Placeholder">
+                    <a href="page.php">
+                        <img src="img/1.jpg" alt="Placeholder">
+                    </a>
+                    <h3 class="price">
+                        150K
+                    </h3>
                     <div class="caption">
-                        <a href="page.php"><h3>Festival Seni</h3></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum scelerisque nibh, vel fermentum mauris lacinia vitae. Pellentesque vulputate rhoncus massa, quis auctor urna sagittis nec. </p>
-                        <p><a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span> Suka</a> <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span> Bagikan</a></p>
-                        <p align="right"></p>
+                        Monday, June 28, 2017
+                        <div class="col-md-8" style="padding:0">
+                            From Zero to hero<br>
+                            Jakarta Convention Center
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
+                        </div>
                     </div>
                 </div>
+
+                <div class="thumbnail col-md-4">
+                    <a href="page.php">
+                        <img src="img/1.jpg" alt="Placeholder">
+                    </a>
+                    <h3 class="price">
+                        150K
+                    </h3>
+                    <div class="caption">
+                        Monday, June 28, 2017
+                        <div class="col-md-8" style="padding:0">
+                            From Zero to hero<br>
+                            Jakarta Convention Center
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="thumbnail col-md-4">
+                    <a href="page.php">
+                        <img src="img/1.jpg" alt="Placeholder">
+                    </a>
+                    <h3 class="price">
+                        150K
+                    </h3>
+                    <div class="caption">
+                        Monday, June 28, 2017
+                        <div class="col-md-8" style="padding:0">
+                            From Zero to hero<br>
+                            Jakarta Convention Center
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                
                 
             </div>
         </div>
