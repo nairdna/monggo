@@ -1,5 +1,5 @@
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal">
 <div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header" align="center">
@@ -40,7 +40,6 @@
                     <!-- End # Login Form -->
                 </div>
                 <!-- End # DIV Form -->
-                
 			</div>
 		</div>
     </div>

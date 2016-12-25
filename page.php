@@ -39,6 +39,9 @@
 			.affix-bottom {
 			  position: absolute;
 			}
+            .orange-panel{
+                border-left: 5px solid #e95420;
+            }
         </style>
     </head>
     <body>
@@ -128,20 +131,76 @@
             <div class="col-md-3 col-lg-3 col-sm-3">
                 Dec 22
                 <h3>DJAKARTA WAREHOUSE PROJECT</h3>
+                <button class="btn btn-primary" style="margin-right:5px;">Volunteers Wanted!</button>                
+                <hr>
                 Created by: <br>
                 <a href = "#">Ivan Siswanto</a>
                 <br><br>
                 Venue: <br>
                 ICE Indonesia
                 <br><br>
-                Price range:
-                <br>
-                Rp 180.000 - Rp 1.800.000
-                <button class="btn btn-primary" style="margin-right:5px;">We are recruiting!</button><button class="btn btn-success">Tickets</button>
-                <hr>
+                <h4>Tickets</h4>
+                <div class="panel panel-default blue-panel">
+                    <div class="panel-body">
+                        <div class="col-md-8 text-left" style="padding-left:0 !important;">
+                            <h5 style="margin-top:0 !important">Bronze Class Ticket</h5>
+                                Rp 540.000
+                        </div>
+                        <div class="col-md-4" style="padding-right:0 !important;">
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default blue-panel">
+                    <div class="panel-body">
+                        <div class="col-md-8 text-left" style="padding-left:0 !important;">
+                            <h5 style="margin-top:0 !important">Silver Class Ticket</h5>
+                                Rp 540.000
+                        </div>
+                        <div class="col-md-4" style="padding-right:0 !important;">
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default blue-panel">
+                    <div class="panel-body">
+                        <div class="col-md-8 text-left" style="padding-left:0 !important;">
+                            <h5 style="margin-top:0 !important">Gold Class Ticket</h5>
+                                Rp 540.000
+                        </div>
+                        <div class="col-md-4" style="padding-right:0 !important;">
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-success btn-block" data-toggle="modal" data-target="#cart-modal">Add to cart</button>
+
             </div>
         </div>
         </div>
+        
+        <?php include "cart-modal.php" ?>
+        
 
         <!-- footer -->
         <?php include "footer.php" ?>

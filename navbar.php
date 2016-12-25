@@ -35,7 +35,7 @@
                     </li>
                 </ul> 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><img src="img/cart.png" style="filter:invert(100%)"></a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#cart-modal"><img src="img/cart.png" style="filter:invert(100%)"></a></li>
                     <li><a href="#"><img src="img/group.png" style="filter:invert(100%)"></a></li>
                     <li><a href="#"><img src="img/comments.png" style="filter:invert(100%)"></a></li>
                     <li><a href="#"><img src="img/bell.png" style="filter:invert(100%)"></a></li>
@@ -44,7 +44,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="profile.php">Profile</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
                         <li><a href="register.php">Register</a></li>
                     </ul>                    
                     </li>
@@ -53,4 +53,5 @@
             </div><!-- /.container-fluid -->
         </nav>
 		
-<?php include "modal.php" ?>
+<?php include "login-modal.php" ?>
+<?php include "cart-modal.php" ?>
