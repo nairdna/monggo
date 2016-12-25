@@ -45,7 +45,7 @@
                         <li><a href="profile.php">Profile</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
-                        <li><a href="#">Register</a></li>
+                        <li><a href="register.php">Register</a></li>
                     </ul>                    
                     </li>
                 </ul>
