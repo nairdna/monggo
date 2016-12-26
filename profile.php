@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Monggo</title>
@@ -41,6 +42,9 @@
             }
             .white{
                 color:white;
+            }
+            .vcenter {
+                padding-top:5%;
             }
         </style>
     </head>
@@ -117,29 +121,26 @@
                         <div class="col-md-4"><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></div>
                         <div class="col-md-4">Not yet reviewed</div>
                     </div>
-                    <h3>As Sponsors</h3>
-                    <hr />
-                    <div class="row text-center" style="color:gray">
-                        No record
-                    </div>
+
                     <h3 class="text-center" style="margin-top:50px">Collaborators</h3>
                     <h3>Freelancer</h3>
                     <hr />
                     <div class="row">
-                        <div class="col-md-2">2012 - 2015</div><div class="col-md-6"> SMA Sedes Sapientiae</div><div class="col-md-4">Semarang</div>
-                        <div class="col-md-2">2015 - Present</div><div class="col-md-6">Surya University</div><div class="col-md-4">Tangerang</div>
+                        <div class="col-md-2"><img src="img/ivan.jpg" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Stefanus Ivan</h4></div>
+                        <div class="col-md-2"><img src="img/kreshna.png" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Kreshna Agusta</h4></div>
+                        <div class="col-md-2"><img src="img/bodhi.jpg" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Bodhi Jaya</h4></div>
                     </div>
                     <h3>Business</h3>
                     <hr />
                     <div class="row">
-                        <div class="col-md-2">2012 - 2015</div><div class="col-md-6"> SMA Sedes Sapientiae</div><div class="col-md-4">Semarang</div>
-                        <div class="col-md-2">2015 - Present</div><div class="col-md-6">Surya University</div><div class="col-md-4">Tangerang</div>
+                        <div class="col-md-2"><img src="img/haagen.png" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Häagen-Dazs</h4></div>
+                        <div class="col-md-2"><img src="img/br.png" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Baskin Robbin</h4></div>
                     </div>
                     <h3>Community</h3>
                     <hr />
                     <div class="row">
-                        <div class="col-md-2">2012 - 2015</div><div class="col-md-6"> SMA Sedes Sapientiae</div><div class="col-md-4">Semarang</div>
-                        <div class="col-md-2">2015 - Present</div><div class="col-md-6">Surya University</div><div class="col-md-4">Tangerang</div>
+                        <div class="col-md-2"><img src="img/goblogit.jpg" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>IT Goblogit</h4></div>
+                        <div class="col-md-2"><img src="img/saungit.png" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Saung IT</h4></div>
                     </div>
                 </div>
             </div>

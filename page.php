@@ -42,6 +42,9 @@
             .orange-panel{
                 border-left: 5px solid #e95420;
             }
+            .vcenter {
+                padding-top:2%;
+            }            
         </style>
     </head>
     <body>
@@ -117,27 +120,79 @@
                         </ul>                 
                 </div>
         </div>
-                <h3>DJAKARTA WAREHOUSE PROJECT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor massa ac congue imperdiet. Duis euismod diam eget blandit sollicitudin. Proin malesuada et nibh at molestie. Fusce in elit vitae arcu aliquet elementum. Etiam nec sapien id velit dictum dignissim. Aliquam hendrerit libero sit amet lacus interdum, non aliquam ligula egestas. Donec molestie, nunc vel viverra tincidunt, risus metus congue nibh, eget porta neque ante nec urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras cursus nisi nec sodales auctor. In et tristique risus. Nullam pellentesque eros eget gravida egestas.</p>
+                <h3>EVENT DESCRIPTION</h3>
+                <div class="row">
+                <p class="col-md-12">Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara.                
+                <div class="col-md-2"></div>
+                <img src="img/gameprime.jpg" class="col-md-8 img-responsive">       
+                <div class="col-md-2"></div>
+                </p>
 
-                <p>In risus enim, venenatis eget urna at, gravida luctus orci. Etiam convallis purus a urna scelerisque auctor. Duis id aliquet velit, quis tempus justo. Donec vel ex mi. Maecenas nec consequat risus, sit amet pharetra quam. Ut aliquet in augue eget imperdiet. Nam quis eleifend urna. Proin tristique massa quis tristique fermentum. Pellentesque hendrerit sed orci at lobortis. In consequat elit nec enim ultricies, eget maximus massa ullamcorper. Quisque nec tortor nec leo ullamcorper bibendum at eu ex. Donec posuere et est sit amet laoreet. Mauris id lacinia tellus, non blandit tortor. Donec blandit justo nec eros molestie, non viverra massa hendrerit. Duis ac ipsum tristique, varius dui in, tincidunt nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <h4>Featuring</h4>
-                <div class="col-md-4 text-center"><img src="img/zedd.jpg" class="img-responsive img-circle"><h4>Zedd</h4></div>
-                <div class="col-md-4 text-center"><img src="img/zedd.jpg" class="img-responsive img-circle"><h4>Zedd</h4></div>
-                <div class="col-md-4 text-center"><img src="img/zedd.jpg" class="img-responsive img-circle"><h4>Zedd</h4></div>
-                <h4>Location</h4>
+                <div class="col-md-12">
+                <h4>Workshop</h4>
+                <p>Ada juga berbagai macam workshop yang bisa diikuti untuk meningkatkan skill di bidang game development dari Unity, Mintsphere, dan Microsoft. Diharapkan setelah mengikuti workshop, peserta sudah memiliki portofolio sendiri.</p>
+
+                <h4>Prime Connect</h4>
+                <p>Ingin mencari investor atau publisher baru? Siapkan portofolio terbaikmu dan tunjukkan kepada beberapa investor dan publisher besar di sini!</p>
+
+                <h4>Networking</h4>
+                <p>Bertemu dengan rekan-rekan developer, publisher, investor, media dan pelaku industri game dari kota lain, untuk membuka kesempatan kolaborasi baru.</p>
+                </div>
+
+                <div class="col-md-2"></div>
+                <img src="img/network.jpg" class="col-md-8 img-responsive">       
+                <div class="col-md-2"></div>
+                
+                <div class="col-md-12">
+                <h4>Artist Alley</h4>
+                <p>Melihat pameran karya para Artist dan designer lokal berbakat di Indonesia.</p>
+
+                <h4>Board Game Area</h4>
+                <p>Rasakan serunya bermain aneka board game yang tersedia bersama peserta lainnya.</p>
+
+                <h4>VR Play Area</h4>
+                <p>Rasakan serunya bermain di dunia Virtual Reality dengan berbagai macam jenis game yang dapat dicoba.</p>
+                </div>
+
+                <div class="col-md-2"></div>
+                <img src="img/vr.jpg" class="col-md-8 img-responsive">       
+                <div class="col-md-2"></div>
+
+                </div>
+                <h3>Benefits for participants</h3>
+                <hr>
+                <ol>
+                <li>Mendapatkan materi seminar “Zero to One” yang tidak pernah ada di seminar manapun.</li>
+                <li>Mendapatkan makan siang berupa snack.</li>
+                <li>Bagi VIP :
+                <ul>
+                <li>Duduk paling depan.</li>
+                <li>Ekslusif foto dan tanda tangan bersama Merry Riana.</li>
+                <li>Gratis sesi perkenalan untuk life academy untuk 1 keluarga yang senilai 100 ribu.</li>
+                <li>Gratis sesi perkenalan public speaking school untuk 1 keluarga yang senilai 100 ribu.</li>
+                <li>Gratis sesi perkenalan Merry Riana Accelerated School untuk 1 keluarga yang senilai 100 ribu.</li>
+                </li>
+                </ol>                
+
+                <h3>Collaborators</h3>
+                <hr>
+                <div class="col-md-2"><img src="img/haagen.png" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Häagen-Dazs</h4></div>
+                <div class="col-md-2"><img src="img/br.png" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Baskin Robbin</h4></div>
+
+
+                <h3 class="col-md-12">Location</h3>
                 <div id="map" style="width:100%;height:300px"></div>
             </div>
             <div class="col-md-3 col-lg-3 col-sm-3">
                 Dec 22
-                <h3>DJAKARTA WAREHOUSE PROJECT</h3>
+                <h3>BEKRAF <br> Game Prime Jakarta</h3>
                 <button class="btn btn-primary" style="margin-right:5px;">Volunteers Wanted!</button>                
                 <hr>
                 Created by: <br>
                 <a href = "#">Ivan Siswanto</a>
                 <br><br>
                 Venue: <br>
-                ICE Indonesia
+                Balai Kartini Jakarta
                 <br><br>
                 <h4>Tickets</h4>
                 <div class="panel panel-default blue-panel">
