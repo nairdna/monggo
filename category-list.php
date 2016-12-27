@@ -7,7 +7,7 @@
                                     Create Event
                                 </a>
                             </form>  
-                        <h4 class="list-group-item-heading">Topics</h4>
+                        <h4 class="list-group-item-heading">Categories</h4>
                         <a class="list-group-item" href="#arts">Arts</a>
                         <a class="list-group-item" href="#bazaar">Bazaar</a>
                         <a class="list-group-item" href="#business">Business</a>                        

@@ -122,7 +122,7 @@
                         <div class="col-md-4">Not yet reviewed</div>
                     </div>
 
-                    <h3 class="text-center" style="margin-top:50px">Collaborators</h3>
+                    <h3 class="text-center" style="margin-top:50px">Current Collaborators</h3>
                     <h3>Freelancer</h3>
                     <hr />
                     <div class="row">

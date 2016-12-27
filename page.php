@@ -287,13 +287,15 @@
         function myMap() {
         var mapCanvas = document.getElementById("map");
         var mapOptions = {
-            center: new google.maps.LatLng(51.5, -0.2), 
-            zoom: 10
+            center: new google.maps.LatLng(-6.241018, 106.628202), 
+            zoom: 15
         }
         var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({position:mapOptions.center});
+        marker.setMap(map);
         }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyAok-AmT12cjgAH3IPVvX-blSIuQhvazjw"></script>
 
     </body>
 </html>
