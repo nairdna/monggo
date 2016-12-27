@@ -26,6 +26,7 @@
                     <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event <span class="caret"></span></a>
                     <ul class="dropdown-menu">
+                        <li class="active"><a href="#">Event</a></li>
                         <li><a href="#">Collaboration</a></li>
                         <li><a href="#">Business Owners</a></li>
                         <li><a href="#">Social Community</a></li>
