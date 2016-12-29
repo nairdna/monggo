@@ -42,6 +42,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/user.png" style="filter:invert(100%)">&nbsp; &nbsp; Ivan</span></a>
                     <ul class="dropdown-menu">
                         <li><a href="profile.php">Profile</a></li>
+                        <li><a href="profile-edit.php">Edit Profile</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
                         <li><a href="register.php">Register</a></li>
