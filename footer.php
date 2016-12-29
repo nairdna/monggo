@@ -56,7 +56,7 @@
                                 <img src="img/glyphicons-blogger.png" class="img-responsive" style="filter:invert(1)">
                             </div>
                             <div class="col-md-2" style="padding-right:0">
-                                <img src="img/glyphicons-google.png" class="img-responsive" style="filter:invert(1)">"
+                                <img src="img/glyphicons-google.png" class="img-responsive" style="filter:invert(1)">
                             </div>
                         </div>          
                     <!--
