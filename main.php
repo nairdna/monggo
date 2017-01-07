@@ -54,42 +54,10 @@
         <!-- navbar -->
         <?php include "navbar.php" ?>
 
-        <div class="container">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                    <img src="img/banner.jpg" alt="New York">
-                    <div class="carousel-caption">
-                    </div> 
-                    </div>
-
-                    <div class="item">
-                    <img src="img/banner2.png" alt="Chicago">
-                    <div class="carousel-caption">
-                    </div> 
-                    </div>
-
-                    <div class="item">
-                    <img src="img/banner3.jpg" alt="Los Angeles">
-                    <div class="carousel-caption">
-                    </div> 
-                    </div>
-                </div>
-            </div>            
+        <div class="container"> 
             <div class="row">
-            <!-- category -->
-            <?php include "category-list.php" ?>
-
-            <div class="col-lg-10 col-md-10 col-sm-9">
-                <div class="thumbnail col-md-4">
+                <h2 class="text-center">Events</h2>
+                <div class="thumbnail col-md-6">
                     <a href="page.php">
                         <img src="img/1.jpg" alt="Placeholder">
                     </a>
@@ -109,31 +77,9 @@
                             <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
                         </div>
                     </div>
-                </div>
-                
-                <div class="thumbnail col-md-4">
-                    <a href="page.php">
-                        <img src="img/1.jpg" alt="Placeholder">
-                    </a>
-                    <h3 class="price">
-                        150K
-                    </h3>
-                    <div class="caption">
-                        Monday, June 28, 2017
-                        <div class="col-md-8" style="padding:0">
-                            From Zero to hero<br>
-                            Jakarta Convention Center
-                        </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
-                        </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
-                        </div>
-                    </div>
-                </div>
+                </div>            
 
-                <div class="thumbnail col-md-4">
+                <div class="thumbnail col-md-6">
                     <a href="page.php">
                         <img src="img/1.jpg" alt="Placeholder">
                     </a>
@@ -155,7 +101,7 @@
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
+                <div class="thumbnail col-md-3">
                     <a href="page.php">
                         <img src="img/1.jpg" alt="Placeholder">
                     </a>
@@ -177,7 +123,7 @@
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
+                <div class="thumbnail col-md-3">
                     <a href="page.php">
                         <img src="img/1.jpg" alt="Placeholder">
                     </a>
@@ -199,7 +145,7 @@
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
+                <div class="thumbnail col-md-3">
                     <a href="page.php">
                         <img src="img/1.jpg" alt="Placeholder">
                     </a>
@@ -221,7 +167,7 @@
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
+                <div class="thumbnail col-md-3">
                     <a href="page.php">
                         <img src="img/1.jpg" alt="Placeholder">
                     </a>
@@ -243,7 +189,7 @@
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
+                <div class="thumbnail col-md-3">
                     <a href="page.php">
                         <img src="img/1.jpg" alt="Placeholder">
                     </a>
@@ -265,7 +211,7 @@
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
+                <div class="thumbnail col-md-3">
                     <a href="page.php">
                         <img src="img/1.jpg" alt="Placeholder">
                     </a>
@@ -287,30 +233,56 @@
                     </div>
                 </div>
 
-                
-                
-            </div>
-        </div>
-        <div class="text-center">
-        <nav aria-label="Page navigation">
-            <ul class="pagination">
-                <li>
-                <a href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                </a>
-                </li>
-                <li class="active"><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li>
-                <a href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                </a>
-                </li>
-            </ul>
-            </nav>
+                <div class="thumbnail col-md-3">
+                    <a href="page.php">
+                        <img src="img/1.jpg" alt="Placeholder">
+                    </a>
+                    <h3 class="price">
+                        150K
+                    </h3>
+                    <div class="caption">
+                        Monday, June 28, 2017
+                        <div class="col-md-8" style="padding:0">
+                            From Zero to hero<br>
+                            Jakarta Convention Center
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="thumbnail col-md-3">
+                    <a href="page.php">
+                        <img src="img/1.jpg" alt="Placeholder">
+                    </a>
+                    <h3 class="price">
+                        150K
+                    </h3>
+                    <div class="caption">
+                        Monday, June 28, 2017
+                        <div class="col-md-8" style="padding:0">
+                            From Zero to hero<br>
+                            Jakarta Convention Center
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+
+                </div>
+                <div class="col-md-2 text-right">
+                    <button class="btn btn-primary btn-block">See more</button>
+                </div>
         </div>
         </div>
 

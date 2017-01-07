@@ -2,6 +2,9 @@
                 <div class="col-lg-2 col-md-2 col-sm-3">
                     <div>
                     <form>
+                    <a href="create.php" role="button" class="btn btn-primary form-control">
+                        Create Event
+                    </a>
                         <h4><b>Advanced Search</b></h4>
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search">

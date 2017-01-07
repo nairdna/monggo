@@ -46,6 +46,10 @@
             .vcenter {
                 padding-top:5%;
             }
+            .profile-section{
+                border-left: 3px solid #e95420;
+                padding-left: 5px;
+            }
         </style>
     </head>
     <body>
@@ -56,7 +60,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div>
-                        <img src="http://eadb.org/wp-content/uploads/2015/08/profile-placeholder.jpg" class="img-responsive">
+                        <img src="img/ivan.jpg" width="100%">
                         <div class="progress">
                             <div class="progress-bar progress-bar-default progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                                 
@@ -79,8 +83,17 @@
                         </div>
                         </div>
                     </div>
+                    <h3 class="profile-section" style="margin-top:50px;"><a href="#about">About</a></h3>
+                    <h3 class="profile-section"><a href="#track">Track Record</a></h3>
                 </div>
                 <div class="col-md-9">
+                    <h3 id="about" style="margin-top:10px">About Stefanus Ivan Siswanto</h3>
+                    <hr>
+                    <p>After attending IWIC in 2 November 2016, I'm so inspired to become a Technoprenur, then I take this opportunity to create my startup company based on my problem to find suitable event, the Monggo is born.</p>
+                    <p>Quickly I formed Monggo Team with 5 person include me with each of us from unique talent and skillset as Business, Front End Developer, Back End Developer and Design Graphic. We take our ideas into serious things. </p>
+                    <p>So now we already built Monggo Startup with my teamates and participate in Ideabox Competition. If we winning this competition, then our startup will growth rapidly with batching in 4 months and get funding from Ventures Capitalist to turn our idea into serious business.</p>
+                    <p>That's sound amazing to me to dream become a Technopreneur to solve problem in our society especially that related with event.</p>
+
                     <h3 style="margin-top:10px">Education</h3>
                     <hr />
                     <div class="row">
@@ -93,13 +106,43 @@
                         <li>Technical Staff at 15<sup>th</sup> World Renewable Energy Congress</li>
                         <li>Finalist of Indosat's IdeaBox</li>
                     </ul>
+
+                    <h3>Careers</h3>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-2">2015 - Present</div><div class="col-md-10"> Founder and CEO of EventMonggo</div>
+                        <div class="col-md-2">2012 - 2015</div><div class="col-md-10"> Renewable Energy Engineer at PT Solar City</div>
+                    </div>
+
                     <h3>Business</h3>
                     <hr>
                     <div class="row">
                         <div class="col-md-2"><img src="img/br.png" class="img-responsive"></div><div class="col-md-4"><h2>Baskin Robbins</h2><p>Your Favorite Ice Cream!</p></div>
                         <div class="col-md-2"><img src="img/haagen.png" class="img-responsive"></div><div class="col-md-4"><h2>Häagen-Dazs</h2><p>Premium Ice Cream</p></div>
                     </div>
-                    <h3 class="text-center">Track Record</h3>
+
+                    <h3 class="text-center" style="margin-top:50px">Current Collaborators</h3>
+                    <h3>Freelancer</h3>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-2"><img src="img/ivan.jpg" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Stefanus Ivan</h4></div>
+                        <div class="col-md-2"><img src="img/kreshna.jpg" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Kreshna</h4></div>
+                        <div class="col-md-2"><img src="img/bodhi.jpg" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Bodhi Jaya</h4></div>
+                    </div>
+                    <h3>Business</h3>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-2"><img src="img/haagen.png" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Häagen-Dazs</h4></div>
+                        <div class="col-md-2"><img src="img/br.png" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Baskin Robbin</h4></div>
+                    </div>
+                    <h3>Community</h3>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-2"><img src="img/goblogit.jpg" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>IT Goblogit</h4></div>
+                        <div class="col-md-2"><img src="img/saungit.png" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Saung IT</h4></div>
+                    </div>
+
+                    <h3 class="text-center" style="margin-top:25px;" id="track">Track Record</h3>
                     <h3>As Eventmaker</h3>
                     <hr />
                     <div class="row">
@@ -120,27 +163,6 @@
                         <div class="col-md-4">Zero to Hero</div>
                         <div class="col-md-4"><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></div>
                         <div class="col-md-4">Not yet reviewed</div>
-                    </div>
-
-                    <h3 class="text-center" style="margin-top:50px">Current Collaborators</h3>
-                    <h3>Freelancer</h3>
-                    <hr />
-                    <div class="row">
-                        <div class="col-md-2"><img src="img/ivan.jpg" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Stefanus Ivan</h4></div>
-                        <div class="col-md-2"><img src="img/kreshna.png" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Kreshna Agusta</h4></div>
-                        <div class="col-md-2"><img src="img/bodhi.jpg" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Bodhi Jaya</h4></div>
-                    </div>
-                    <h3>Business</h3>
-                    <hr />
-                    <div class="row">
-                        <div class="col-md-2"><img src="img/haagen.png" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Häagen-Dazs</h4></div>
-                        <div class="col-md-2"><img src="img/br.png" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Baskin Robbin</h4></div>
-                    </div>
-                    <h3>Community</h3>
-                    <hr />
-                    <div class="row">
-                        <div class="col-md-2"><img src="img/goblogit.jpg" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>IT Goblogit</h4></div>
-                        <div class="col-md-2"><img src="img/saungit.png" class="img-responsive"></div><div class="col-md-2 vcenter"><h4>Saung IT</h4></div>
                     </div>
                 </div>
             </div>

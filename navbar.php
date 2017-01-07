@@ -13,41 +13,43 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <a class="navbar-left" href="main.php"><img src="img/logo.png"></a>
-                <form class="navbar-form navbar-left" action="result-page.php">                    
-                    <div class="form-group">
-                         <input type="text" size="50" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-success form-control">
-                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                    </button>
-                </form>                    
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li class="active"><a href="#">Event</a></li>
-                        <li><a href="#">Collaboration</a></li>
-                        <li><a href="#">Business Owners</a></li>
-                        <li><a href="#">Social Community</a></li>
-                    </ul>                    
-                    </li>
-                </ul> 
+                    <a class="navbar-left" href="main.php"><img src="img/logo.png"></a>                 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" data-toggle="modal" data-target="#cart-modal"><img src="img/cart.png" style="filter:invert(100%)"></a></li>
-                    <li><a href="#"><img src="img/group.png" style="filter:invert(100%)"></a></li>
-                    <li><a href="#"><img src="img/comments.png" style="filter:invert(100%)"></a></li>
-                    <li><a href="#"><img src="img/bell.png" style="filter:invert(100%)"></a></li>
                     <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/user.png" style="filter:invert(100%)">&nbsp; &nbsp; Ivan</span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Manage<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="profile.php">Profile</a></li>
-                        <li><a href="profile-edit.php">Edit Profile</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
-                        <li><a href="register.php">Register</a></li>
+                        <li><a href="completed-page.php">Event</a></li>
+                        <li><a href="company-profile.php">Business</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Sponsorship</a></li>
+                        <li><a href="#">Design</a></li>
                     </ul>                    
                     </li>
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Browse<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Job Opportunities</a></li>
+                        <li><a href="#">Social Community</a></li>
+                        <li><a href="#">Business Owner</a></li>
+                        <li><a href="#">Freelancer</a></li>
+                    </ul>                    
+                    </li>                    
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Notification<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Invite</a></li>
+                        <li><a href="#">Message</a></li>
+                        <li><a href="#">Friend Request</a></li>
+                    </ul>                    
+                    </li>
+                    <li><a href="#">Help</a></li>       
+                    <li><a href="#" style="padding:4px 2px 2px 2px;"><img src="img/ivan.jpg" class="img-responsive" style="height:50px"></a></li>                                  
+                    <li><a href="profile.php">Stefanus Ivan</a></li>    
+                    <!-- if the user is not logged in                             
+                    <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
+                    <li><a href="register.php">Register</a></li>
+                    -->                              
                 </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->

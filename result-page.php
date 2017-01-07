@@ -60,272 +60,262 @@
             <?php include "advanced-search.php" ?>
 
             <div class="col-lg-10 col-md-10 col-sm-9">
-                <h3>Search results for "From Zero"</h3>
-                <div class="thumbnail col-md-4">
-                    <a href="page.php">
-                        <img src="img/1.jpg" alt="Placeholder">
-                    </a>
-                    <h3 class="price">
-                        150K
-                    </h3>
-                    <div class="caption">
-                        Monday, June 28, 2017
-                        <div class="col-md-8" style="padding:0">
-                            From Zero to hero<br>
-                            Jakarta Convention Center
+                <h3>Find your next event!</h3>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
-                        </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
                         </div>
                     </div>
-                </div>
-                
-                <div class="thumbnail col-md-4">
-                    <a href="page.php">
-                        <img src="img/1.jpg" alt="Placeholder">
-                    </a>
-                    <h3 class="price">
-                        150K
-                    </h3>
-                    <div class="caption">
-                        Monday, June 28, 2017
-                        <div class="col-md-8" style="padding:0">
-                            From Zero to hero<br>
-                            Jakarta Convention Center
-                        </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
-                        </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
-                        </div>
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
-                    <a href="page.php">
-                        <img src="img/1.jpg" alt="Placeholder">
-                    </a>
-                    <h3 class="price">
-                        150K
-                    </h3>
-                    <div class="caption">
-                        Monday, June 28, 2017
-                        <div class="col-md-8" style="padding:0">
-                            From Zero to hero<br>
-                            Jakarta Convention Center
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
-                        </div>
+                    </div>
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
-                    <a href="page.php">
-                        <img src="img/1.jpg" alt="Placeholder">
-                    </a>
-                    <h3 class="price">
-                        150K
-                    </h3>
-                    <div class="caption">
-                        Monday, June 28, 2017
-                        <div class="col-md-8" style="padding:0">
-                            From Zero to hero<br>
-                            Jakarta Convention Center
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
-                        </div>
+                    </div>
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
-                    <a href="page.php">
-                        <img src="img/1.jpg" alt="Placeholder">
-                    </a>
-                    <h3 class="price">
-                        150K
-                    </h3>
-                    <div class="caption">
-                        Monday, June 28, 2017
-                        <div class="col-md-8" style="padding:0">
-                            From Zero to hero<br>
-                            Jakarta Convention Center
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
-                        </div>
+                    </div>
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
-                    <a href="page.php">
-                        <img src="img/1.jpg" alt="Placeholder">
-                    </a>
-                    <h3 class="price">
-                        150K
-                    </h3>
-                    <div class="caption">
-                        Monday, June 28, 2017
-                        <div class="col-md-8" style="padding:0">
-                            From Zero to hero<br>
-                            Jakarta Convention Center
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
-                        </div>
+                    </div>
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
-                    <a href="page.php">
-                        <img src="img/1.jpg" alt="Placeholder">
-                    </a>
-                    <h3 class="price">
-                        150K
-                    </h3>
-                    <div class="caption">
-                        Monday, June 28, 2017
-                        <div class="col-md-8" style="padding:0">
-                            From Zero to hero<br>
-                            Jakarta Convention Center
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
-                        </div>
+                    </div>
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
-                    <a href="page.php">
-                        <img src="img/1.jpg" alt="Placeholder">
-                    </a>
-                    <h3 class="price">
-                        150K
-                    </h3>
-                    <div class="caption">
-                        Monday, June 28, 2017
-                        <div class="col-md-8" style="padding:0">
-                            From Zero to hero<br>
-                            Jakarta Convention Center
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
-                        </div>
+                    </div>
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
-                    <a href="page.php">
-                        <img src="img/1.jpg" alt="Placeholder">
-                    </a>
-                    <h3 class="price">
-                        150K
-                    </h3>
-                    <div class="caption">
-                        Monday, June 28, 2017
-                        <div class="col-md-8" style="padding:0">
-                            From Zero to hero<br>
-                            Jakarta Convention Center
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
-                        </div>
+                    </div>
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
-                    <a href="page.php">
-                        <img src="img/1.jpg" alt="Placeholder">
-                    </a>
-                    <h3 class="price">
-                        150K
-                    </h3>
-                    <div class="caption">
-                        Monday, June 28, 2017
-                        <div class="col-md-8" style="padding:0">
-                            From Zero to hero<br>
-                            Jakarta Convention Center
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
-                        </div>
+                    </div>
                     </div>
                 </div>
 
-                <div class="thumbnail col-md-4">
-                    <a href="page.php">
-                        <img src="img/1.jpg" alt="Placeholder">
-                    </a>
-                    <h3 class="price">
-                        150K
-                    </h3>
-                    <div class="caption">
-                        Monday, June 28, 2017
-                        <div class="col-md-8" style="padding:0">
-                            From Zero to hero<br>
-                            Jakarta Convention Center
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
-                        </div>
+                    </div>
                     </div>
                 </div>
 
-
-                <div class="thumbnail col-md-4">
-                    <a href="page.php">
-                        <img src="img/1.jpg" alt="Placeholder">
-                    </a>
-                    <h3 class="price">
-                        150K
-                    </h3>
-                    <div class="caption">
-                        Monday, June 28, 2017
-                        <div class="col-md-8" style="padding:0">
-                            From Zero to hero<br>
-                            Jakarta Convention Center
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
                         </div>
-                        <div class="col-md-2">
-                            <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
-                        </div>
+                    </div>
                     </div>
                 </div>
 
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
+                        </div>
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
+                        </div>
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
+                        </div>
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/1.jpg" class="img-responsive">
+                            <button class="btn btn-success btn-block" style="margin-top:10px">Tags</button>
+                        </div>
+                        <div class="col-md-8">
+                            <h4 style="margin-top:0"><b>From Zero to Hero</b></h4>
+                            <h4>Jakarta Convention Center / Monday, June 28, 2017</h4>
+                            <p>Bekraf Game Prime 2016 merupakan bentuk evolusi dari Game Developers Gathering (GDG) yang setiap tahun menjadi ajang berkumpulnya para pelaku industri game di Indonesia. Dengan sedikit perubahan identitas ini, event ini bukan  hanya akan menjadi event industri game B2B dan B2C terbesar di Indonesia, akan tetapi juga akan menjadi salah satu yang terbesar di Asia Tenggara. </p>
+                            <h4>Price: Rp 150.000 ~ Rp 1.500.000</h4>
+                        </div>
+                    </div>
+                    </div>
+                </div>
                 
                 
             </div>
@@ -355,5 +345,41 @@
 
         <!-- footer -->
         <?php include "footer.php" ?>
+        <script>
+                jQuery(document).ready(function($) {
+        
+                        $('#myCarousel').carousel({
+                                interval: 5000
+                        });
+                
+                        $('#carousel-text').html($('#slide-content-0').html());
+                
+                        //Handles the carousel thumbnails
+                    $('[id^=carousel-selector-]').click( function(){
+                            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+                            var id = parseInt(id);
+                            $('#myCarousel').carousel(id);
+                        });
+                
+                
+                        // When the carousel slides, auto update the text
+                        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                                var id = $('.item.active').data('slide-number');
+                                $('#carousel-text').html($('#slide-content-'+id).html());
+                        });
+                });
+
+                function myMap() {
+                var mapCanvas = document.getElementsByClassName("map");
+                var mapOptions = {
+                    center: new google.maps.LatLng(-6.241018, 106.628202), 
+                    zoom: 15
+                }
+                var map = new google.maps.Map(mapCanvas, mapOptions);
+                var marker = new google.maps.Marker({position:mapOptions.center});
+                marker.setMap(map);
+                }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyAok-AmT12cjgAH3IPVvX-blSIuQhvazjw"></script>        
     </body>
 </html>

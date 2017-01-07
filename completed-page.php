@@ -152,7 +152,6 @@
             <div class="col-md-3 col-lg-3 col-sm-3">
                 Dec 22
                 <h3>BEKRAF <br> Game Prime Jakarta</h3>
-                <button class="btn btn-primary" style="margin-right:5px;">Volunteers Wanted!</button>                
                 <hr>
                 Created by: <br>
                 <a href = "#">Ivan Siswanto</a>
@@ -160,61 +159,50 @@
                 Venue: <br>
                 Balai Kartini Jakarta
                 <br><br>
-                <h4>Tickets</h4>
+                <h4>798 Reviews <div style="float:right"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span> 4.8</div></h4>
                 <div class="panel panel-default blue-panel">
                     <div class="panel-body">
-                        <div class="col-md-8 text-left" style="padding-left:0 !important;">
-                            <h5 style="margin-top:0 !important">Bronze Class Ticket</h5>
-                                Rp 540.000
+                        <div class="col-md-4 text-left" style="padding-left:0 !important;">
+                            <img src="img/ivan.jpg" class="img-responsive img-circle">
                         </div>
-                        <div class="col-md-4" style="padding-right:0 !important;">
-                            <select class="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+                        <div class="col-md-8" style="padding-right:0 !important;">
+                            <b>Stefanus Ivan</b><br>
+                            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+                            <p style="margin-bottom:0">Amazing experience!</p>
+                            <span style="color:gray">Today</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-default blue-panel">
                     <div class="panel-body">
-                        <div class="col-md-8 text-left" style="padding-left:0 !important;">
-                            <h5 style="margin-top:0 !important">Silver Class Ticket</h5>
-                                Rp 540.000
+                        <div class="col-md-4 text-left" style="padding-left:0 !important;">
+                            <img src="img/bodhi.jpg" class="img-responsive img-circle">
                         </div>
-                        <div class="col-md-4" style="padding-right:0 !important;">
-                            <select class="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+                        <div class="col-md-8" style="padding-right:0 !important;">
+                            <b>Bodhi</b><br>
+                            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+                            <p style="margin-bottom:0">Great experience!</p>
+                            <span style="color:gray">Yesterday</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-default blue-panel">
                     <div class="panel-body">
-                        <div class="col-md-8 text-left" style="padding-left:0 !important;">
-                            <h5 style="margin-top:0 !important">Gold Class Ticket</h5>
-                                Rp 540.000
+                        <div class="col-md-4 text-left" style="padding-left:0 !important;">
+                            <img src="img/kreshna.jpg" class="img-responsive img-circle">
                         </div>
-                        <div class="col-md-4" style="padding-right:0 !important;">
-                            <select class="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+                        <div class="col-md-8" style="padding-right:0 !important;">
+                            <b>Kresna</b><br>
+                            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+                            <p style="margin-bottom:0">Awesome!</p>
+                            <span style="color:gray">2 days ago</span>
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-success btn-block" data-toggle="modal" data-target="#cart-modal">Add to cart</button>
+                
+
 
             </div>
         </div>
