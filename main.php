@@ -277,7 +277,7 @@
 
                 </div>
                 <div class="col-md-2 text-right">
-                    <button class="btn btn-primary btn-block">See more</button>
+                    <a role="button" href="result-page.php" class="btn btn-primary btn-block">See more</a>
                 </div>
         </div>
         </div>
