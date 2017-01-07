@@ -65,15 +65,13 @@
                         150K
                     </h3>
                     <div class="caption">
-                        Monday, June 28, 2017
                         <div class="col-md-8" style="padding:0">
+                            Monday, June 28, 2017<br>
                             From Zero to hero<br>
                             Jakarta Convention Center
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-4 text-right">
                             <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
-                        </div>
-                        <div class="col-md-2">
                             <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
                         </div>
                     </div>
@@ -87,15 +85,13 @@
                         150K
                     </h3>
                     <div class="caption">
-                        Monday, June 28, 2017
                         <div class="col-md-8" style="padding:0">
+                            Monday, June 28, 2017<br>
                             From Zero to hero<br>
                             Jakarta Convention Center
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-4 text-right">
                             <a href="#" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-thumbs-up"></span></a> 
-                        </div>
-                        <div class="col-md-2">
                             <a href="#" class="btn btn-info" role="button"><span class="glyphicon glyphicon-bullhorn"></span></a>
                         </div>
                     </div>
