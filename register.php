@@ -46,14 +46,14 @@
     </head>
     <body>
         <!-- navbar -->
-        <?php include "navbar.php" ?>
+        <?php include "navbar-guest.php" ?>
 
         <div class="container">
             <div class="row">
                 <div class="col-md-1">
                 </div>
                 <div class="col-md-4" style="padding-top:10%">
-                    <button class="btn btn-primary btn-block" style="background-color:#4286c1; border-color:#4286c1; font-weight:bold">Register with  <img src="img/glyph-facebook.png" style="filter:invert(100%)"> acebook</button>
+                    <button class="btn btn-primary btn-block" style="background-color:#4286c1; border-color:#4286c1; font-weight:bold">Register with  <img src="img/glyphicons-facebook.png" style="filter:invert(100%)"> acebook</button>
                     <button class="btn btn-primary btn-block" style="background-color:#fff; border-color:#4286c1; color:#606060; font-weight:bold">Register with <img src="img/gplus.png" width="24" height="24">oogle</button>
                     <button class="btn btn-primary btn-block" style="background-color:#754cbf; border-color:#754cbf; color:#fff; font-weight:bold">Register with <img src="img/yahoo.png" style="filter:brightness(0) invert(100%)" width="24" height="24">ahoo</button>
                 </div>

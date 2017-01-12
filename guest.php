@@ -51,7 +51,7 @@
     </head>
     <body>
         <!-- navbar -->
-        <?php include "navbar.php" ?>
+        <?php include "navbar-guest.php" ?>
 
         <div class="container"> 
             <div class="row">

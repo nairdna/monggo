@@ -44,12 +44,8 @@
                     </ul>                    
                     </li>
                     <li><a href="#">Help</a></li>       
-                    <li><a href="#" style="padding:2px 2px 2px 2px;"><img src="img/ivan.jpg" class="img-responsive" style="max-height:46px"></a></li>                                  
-                    <li><a href="profile.php">Stefanus Ivan</a></li>    
-                    <!-- if the user is not logged in                             
                     <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
                     <li><a href="register.php">Register</a></li>
-                    -->                              
                 </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
