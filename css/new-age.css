@@ -72,11 +72,11 @@ p {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  color: #fdcc52;
+  color: #009999;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #fcbd20;
+  color: #009999;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-size: 12px;
