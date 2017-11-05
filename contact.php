@@ -61,7 +61,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#" style="color: #00cccc" data-toggle="modal" data-target="#addNindya" onClick="baru()"><span class="glyphicon glyphicon-plus" aria-hidden="true" ></span> Nindya Baru</a>
+                        <a href="nindyas.php" style="color: #000000">Nindya</a>
                     </li>
                 </ul>
             </div>
@@ -76,7 +76,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="section-heading" style="margin-bottom:40px">
-                        <h2>Nindya</h2>
+                        <h2>Contact Us!</h2>
                         <hr>
                     </div>
                 </div>
@@ -85,74 +85,56 @@
                 <div class="col-md-12">
                     <div class="container-fluid">
 						<div class="row">
-						
-						<?php
-							require 'koneksi.php';
-							$result = $db->query('SELECT no, nama, jabatan, gambar FROM nindya');
-							while($data = $result->fetchArray()){
+						  <div class="col-sm-3 col-md-3">
+							<h3 style="margin-top:0"><strong>About BSLC</strong></h3>
+							<p>BINUS Student Learning Community (BSLC) merupakan komunitas belajar bagi Binusian dari berbagai jurusan untuk meningkatkan prestasi akademik, employability & organizational skills.</p>		
+						  </div>							
 							
-						?>
-						
-						  <div class="col-sm-6 col-md-3">
-							<div class="thumbnail">
-							  <img src="<?php echo $data['gambar']; ?>">
-							  <div class="caption">
-								<h3><?php echo $data['nama']; ?></h3>
-								<p><?php echo $data['jabatan']; ?></p>
-								<p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#addNindya" onClick=ganti('<?php echo $data['no'] ?>','<?php echo str_replace(' ','%20',$data['nama']) ?>','<?php echo str_replace(' ','%20',$data['jabatan']) ?>','<?php echo $data['gambar'] ?>')>Ganti</a> 
-								<a href="hapus.php?no_nindya=<?php echo $data['no'] ?>" class="btn btn-warning" role="button">Hapus</a></p>
+
+						  <div class="col-sm-3 col-md-3">	
+							<p><strong>BSLC – Kemanggisan</strong> <br/>
+							Anggrek Campus, R.515 <br/>
+							Binus University <br/>
+							Jl. Kebon Jeruk Raya No. 27
+							</p>
+							<p>
+							<strong>BSLC – Alam Sutera</strong><br/>
+							Alam Sutera, R.SACDC<br/>
+							Binus University<br/>
+							Jl. Alam Sutera Boulevard No. 1	
+							</p>
+						  </div>
+						  <div class="col-sm-6 col-md-6">
+							<form enctype="multipart/form-data" action="tambah.php" method="post">
+							  <input type="hidden" value="0" id="no_nindya" name="no_nindya">
+							  <div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Email" required>
 							  </div>
+							  <div class="form-group">
+								<label for="nama">Nama</label>
+								<input type="text" class="form-control" id="nama" placeholder="Nama" required>
+							  </div>
+							  <div class="form-group">
+								<label for="subjek">Subjek</label>
+								<input type="text" class="form-control" id="subjek" placeholder="Subjek" required>
+							  </div>
+							  <div class="form-group">
+								<textarea class="form-control" rows="5" id="pesan" placeholder="Pesan Anda..." required></textarea>
+							  </div>
+							  <div class="form-group">
+							    <input type="reset" class="btn btn-default">
+								<button class="btn btn-primary">Submit</button>
+							  </div>
+							</form>
 							</div>
 						  </div>
-						  <?php 
-							}
-						  ?>
-						  
-						  
 						</div>                        
                     </div>
                 </div>
             </div>
     </section>
 
-	<div class="modal fade" id="addNindya" tabindex="-1" role="dialog">
-	  <div class="modal-dialog" role="document">
-		<div class="modal-content">
-		  <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			<h4 class="modal-title">Data Diri Nindya</h4>
-		  </div>
-		  <div class="modal-body">
-			<div class="row">
-				<div class="col-md-4">
-					<img src="http://via.placeholder.com/250x300?text=Nindya" class="img-responsive" id="profilepicture">
-				</div>
-				<div class="col-md-8">
-					<form enctype="multipart/form-data" action="tambah.php" method="post">
-					  <input type="hidden" value="0" id="no_nindya" name="no_nindya">
-					  <div class="form-group">
-						<label for="profile">Profile Picture</label>
-						<input type="file" id="profile" name="profile" required>
-					  </div>
-					  <div class="form-group">
-						<label for="nama">Nama</label>
-						<input type="text" class="form-control" id="nama" name="nama" placeholder="Nama" required>
-					  </div>
-					  <div class="form-group">
-						<label for="jabatan">Jabatan</label>
-						<input type="text" class="form-control" id="jabatan" name="jabatan" placeholder="Jabatan" required>
-					  </div>
-				</div>
-			</div>
-		  </div>
-		  <div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
-			<button type="submit" class="btn btn-primary">Tambah</button>
-			</form>	
-		  </div>
-		</div><!-- /.modal-content -->
-	  </div><!-- /.modal-dialog -->
-	</div><!-- /.modal -->
 
 
     <footer>
